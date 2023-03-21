@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.0/components/navs-tabs/"  rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo:100,200|Quattrocento+Sans" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+        <link rel="stylesheet" href="my_stylesheet.css">
+      <title>{{ title }}</title> 
+    </head>
+
+
+    <body class="whole" >
+
+        <div class="container fixed-top ">
+            <div class="row  justify-content-center"  >
+                <div  class="col-4   " >
+              
+                    <div class="leftside  ">
+                        <div class= "text-center">
+                             <img class="img-fluid rounded-circle"    src="profile_pic.jpg" />
+                        </div>
+                        <div class="col" >
+                            <h3 class="myname">Yan Zhu</h3>
+                        </div>
+                        <!-- As a link -->
+                        
+                        
+                        <div class="nav flex-column">
+                      
+                    {% for page in pages %}
+                           
+                         <li class="my-normal-link {% if page.title == title %}
+                                                    my-active-link
+                                                   
+                                                   {% endif %}">
+                         
+                         <a class="nav-link active" href="{{ page.filename_link }}">{{ page.title }}</a></li>
+                         
+                        {% endfor %}
+                          
+                           <div class="nav-link   " ><a href="https://github.com/Lucky-Yandy"  > GitHub</a> </div>
+                      
+                         
+                            <div class="nav-link "><a href="https://www.linkedin.com/in/4523yandy/" > LinkedIn</a></div> 
+                          
+                            
+                        </div>
+                      
+                    </div>
+                </div>
+          
+                
+{{content}}                
+                
+                
+                
+                
+     </div>
+
+        </body>
+    </html>               

@@ -1,0 +1,120 @@
+
+.whole{
+    background-color: rgb(148, 224, 220);
+}
+ 
+
+ 
+ .container{
+   background-color: rgb(148, 224, 220);
+
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 30px;
+
+ }
+ .leftside{
+   margin-right: 10px;
+    background:rgb(207, 206, 201);
+    padding-bottom: 900px;
+   font-size:1rem;
+   font-weight:500;
+    
+ }
+ .myname{
+  margin-top: 50px;
+   margin-bottom: 50px;
+    text-align: center;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+ }
+
+
+
+ .nav{
+    text-align: center;
+    font-size: 20px;
+
+
+ }
+ .nav-link{
+    color: black;
+    padding-bottom: 10px;
+
+ }
+ .gap1{
+  padding-bottom: 30px;
+ }
+ .active{
+  margin-top: 10px;
+ }
+ 
+ 
+ .first-project{
+   background-color: #87beb9;
+
+   margin:10px;
+ }
+ .second-project{
+    background-color:#87beb9;
+    margin:10px;
+ }
+ .rightpart{
+    background:rgb(207, 206, 201);
+    padding-bottom: 700px;
+ }
+
+ .rightpart h1 {
+    margin-bottom: 30px;
+ }
+ 
+  h1 {
+    text-align: center;
+ }
+ .img1{
+   max-width: 150px;
+    display: flex;
+    align-items:flex-end;
+ }
+ .img2{
+    max-width: 150px;
+     display: flex;
+     align-items:flex-end;
+  }
+
+  .img-fluid{
+    padding-top: 30px;
+    max-width:150px;
+   border-radius: 50%;
+   text-align: center;
+  /* margin-left: 100px;
+   margin-right:25px;
+   */
+    
+  }
+  .about-me{
+    text-align: center;
+    padding-bottom: 300px;
+    
+  }
+  .aboutmargin{
+    text-align:left;
+    padding: 50px;
+    
+    margin: 10px;
+    margin-bottom: 200px;
+    margin-top: 0;
+  }
+  
+  
+
+
+.my-normal-link {
+    color: black;
+    background: rgb(207, 206, 201);
+}
+
+.my-active-link { 
+   background: #87beb9;
+}
+
+
